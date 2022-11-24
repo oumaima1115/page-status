@@ -1,0 +1,38 @@
+{
+  "name": "confluence-macro-custom-ui",
+  "version": "1.0.3",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@webpack-cli/generators": "^2.5.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "@forge/resolver": "^1.4.4",
+    "@forge/ui": "^1.4.0",
+    "node-fetch": "^3.2.10",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run-script build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
